@@ -134,7 +134,7 @@
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px 'Roboto';
     letter-spacing: 21px;
 }
 
@@ -158,7 +158,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
-    border: 1px solid var(--border-color);
+    border: 1px solid  #201f1f17;
     text-align: center;
     padding: 1.8rem 0rem;
     margin: .9rem 0;
@@ -173,7 +173,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-6 > .single-brand:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     transform: scale(1.1);
 }
 
@@ -207,13 +207,13 @@
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--roboto);
-    color: var(--primary-color2);
+    font: normal bold 84px/40px 'Roboto';
+    color:  #854fee;
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--roboto);
+    font: normal 600 22px/30px 'Roboto';
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -246,7 +246,7 @@
 }
 
 .site-main > .services-area .services:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
 
@@ -292,43 +292,6 @@
 
 /* About Me */ 
 
-.site-main .about-area .about-title p{
-    padding: 1rem 7rem;
-}
-
-.site-main .about-area .client{
-    background: #ffffff10;
-    box-shadow: var(--box-shadow);
-    margin: 3rem 0rem;
-}
-
-.site-main .about-area .client .client-img{
-    padding: 2rem;
-}
-
-.site-main .about-area .client .about-client{
-    padding-top: 2rem;
-}
-
-.site-main .about-area .client .about-client h4{
-    font: normal 500 21px/ 20px var(--roboto);
-}
-
-.site-main .about-area .client .about-client p{
-    font-size: 14px;
-}
-
-.site-main .about-area .owl-carousel .owl-item{
-    display: flex;
-    justify-content: center;
-    padding: 0 1.5rem;
-}
-
-.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
-    background: var(--primary-color);
-    width: 12px;
-    height: 12px;
-}
 
 
 
@@ -336,40 +299,7 @@
 
 /* Subscribe me */ 
 
-.site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
-    padding: 10rem 0;
-    margin: 3rem auto;
-}
 
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/ 30px var(--roboto);
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe .subscribe-title p{
-    color: whitesmoke;
-    padding: 1rem 4rem;
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
-    width: 400px;
-    padding: 1.5rem 1rem;
-    border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
-    font: normal 500 17px/20px var(--roboto);
-}
-
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
-}
-
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: #000;
-    padding: .7rem 2rem;
-}
 
 /* End subscribe me */ 
 
@@ -381,17 +311,17 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: normal 500 23px/ 30px 'Roboto';
 }
 
 footer.footer-area .social a > i{
     font-size:22px;
     padding: 2rem;
-    color: var(--border-color);
+    color:  #201f1f17;
 }
 
 footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: #4458dc;
 }
 
 
